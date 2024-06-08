@@ -1,9 +1,6 @@
 from casino import (
     deck,
-    CardGame,
-    Casino,
-    Dealer,
-    Player,
+    CardGame, Casino,
 
 )
 
@@ -48,3 +45,4 @@ class BlackJack(CardGame):
         и оплачивается 2:1, во всех остальных случаях проигрывает.
         Блэк Джек застраховать нельзя."""
         pass
+
